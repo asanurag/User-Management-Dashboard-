@@ -1,6 +1,6 @@
 # User Management Dashboard
 
-This project is a user management dashboard built with React, TypeScript, and Tailwind CSS. It allows you to view, add, edit, and delete user information fetched from a mock API. The application is designed for easy user management and provides a responsive, modern UI.
+This project is a user management dashboard built with React, TypeScript, and Tailwind CSS. It lets you view, add, edit, and delete user information fetched from a mock API. The application is designed for easy user management and provides a responsive, modern UI.
 
 ---
 
@@ -31,11 +31,11 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/<repository-name>.git
+   git clone https://github.com/asanurag/User-Management-Dashboard-.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <repository-name>
+   cd User-Management-Dashboard-
    ```
 3. Install dependencies:
    ```bash
@@ -69,8 +69,8 @@ This project uses GitHub Pages for deployment.
    import ghPages from 'vite-plugin-gh-pages';
 
    export default defineConfig({
-     plugins: [react(), ghPages()],
-     base: '/<repository-name>/',
+     plugins: [react()],
+     base: '/User-Management-Dashboard-/',
    });
    ```
 3. Add the deploy script in `package.json`:
@@ -86,7 +86,7 @@ This project uses GitHub Pages for deployment.
 
 The app will be available at:
 ```
-https://<username>.github.io/<repository-name>
+[https://asanurag.github.io/User-Management-Dashboard-/]
 ```
 
 ---
@@ -126,7 +126,7 @@ user-management-dashboard/
 - **Enhanced Features**:
   - Sorting by columns in the user table.
   - Advanced search filters for specific fields.
-  - Bulk actions such as delete multiple users.
+  - Bulk actions such as deleting multiple users.
 - **UI Enhancements**: Using skeleton loaders for a better loading experience.
 
 ---
